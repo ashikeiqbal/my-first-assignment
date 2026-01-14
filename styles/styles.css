@@ -355,6 +355,120 @@ body{
 
 
 
+/* Early-access section started here  */
+
+#early-access{
+    
+    
+
+}
+
+.early-access-container{
+    background-color: #F7F6F2;
+    width: 85%;
+    max-width: 1360px;
+    margin: 80px auto;
+    /* justify-content: center; */
+    text-align: center;
+    padding: 80px 0;
+    
+
+}
+
+.early-access-container button{
+    margin-bottom: 16px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.151);
+}
+
+
+.early-access-container p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 16px;
+}
+
+
+/* Footer Started Here  */
+
+footer{
+    background-color: #001931;
+    padding: 120px 0 0 0;
+    
+}
+
+.footer-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    
+}
+
+.footer-top{
+    padding: 0 px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.social-icon h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+
+}
+
+.social-icon ul{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 80px;
+}
+
+.social-icon ul li{
+    list-style: none;
+}
+
+.social-icon ul li i{
+    color: white;
+}
+
+
+
+
+.footer-bottom{
+    /* margin: 300px; */
+    /* background-color: #F95555; */
+    padding: 30px;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.footer-bottom small{
+    color: white;
+    font-size: 16px;
+    font-weight: 400 ;
+    /* margin-top: 20px; */
+    margin: 100px;
+}
+
+.footer-bottom hr{
+    opacity: 0.2;
+    margin-bottom: 30px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

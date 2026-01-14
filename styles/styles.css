@@ -206,7 +206,7 @@ body{
 }
 
 .note-container{
-    padding: 115px 0 180px;   
+    padding: 115px 0 80px;   
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
@@ -261,6 +261,7 @@ body{
     align-items: center;
     justify-content: center;
     /* background-color: aquamarine; */
+    /* background-color: #30B868; */
 }
 
 .brain-img{
@@ -359,7 +360,7 @@ body{
 
 #early-access{
     
-    
+    margin: 120px 0;
 
 }
 

@@ -405,12 +405,25 @@ footer{
 }
 
 .footer-top{
-    padding: 0 px;
+    padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+   
+
+    /* background-color: #a05d5d; */
     
 }
 
+
+.footer-logo{
+    /* background-color: aqua; */
+    /* justify-content: left; */
+}
+
+.social-icon{
+    /* background-color: #30B868; */
+    /* justify-content: right; */
+}
 
 .social-icon h4{
     color: white;

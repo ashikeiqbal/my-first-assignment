@@ -4,6 +4,8 @@
 }
 
 
+/* Shared section */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -17,17 +19,298 @@ body{
 
 }
 
+.section-heading{
+    max-width: 1360px;
+
+}
+
+.section-heading h2{
+    font-size: 48px;
+    color: black;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+
+
+}
+
+.section-heading p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 16px;
+
+
+}
+
+
+/* All Button Here  */
+
+.btn{
+    background-color: #469165;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: white;
+    padding: 10px 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #469165;
+    border-radius: 5px;
+    border: 2px solid #469165;
+}
+
+
+
+.btn-alt{
+    background-color: rgba(201, 25, 25, 0);
+    padding: 10px 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+
+.btn-alt:hover{
+    background-color: #30634500;
+    padding: 10px 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #469165;
+    border-radius: 5px;
+    border: 2px solid #469165;
+}
+
+
+.btn-top{
+    background-color: white;
+    padding: 10px 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #469165;
+    border-radius: 50px;
+    border: 2px solid #469165;
+}
+
+.btn-top:hover{
+    background-color: #469165;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+
+/* Main section */
 
 .site-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 85%; */
+    width: 85%;
     max-width: 1360px;
+    padding: 16px 0 16px;
     margin: 0 auto;
-    background-color: rgb(216, 199, 174);
+    /* background-color: #f9f9f9; */
 
 }
+
+.site-header ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.site-header ul li{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Nav Section END  */
+
+
+/* Hero Section Start  */
+
+
+
+#hero{
+    background: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.hero-container{
+    padding: 115px 0 180px;   
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.hero-container h1{
+    color: white;
+    font-size: 72px;
+    line-height: 85px;
+    margin-bottom: 32px;
+}
+
+.green-title{
+    color: #469165;
+}
+
+
+.hero-container p{
+    color: white;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+
+}
+
+.btn-early{
+    margin-bottom: 32px;
+}
+
+.hero-buttons .btn{
+    margin-right: 10px;
+
+}
+
+.hero-buttons .btn-alt{
+    margin-left: 10px;
+
+}
+
+
+
+/* Note Section Started  */
+
+#note{
+
+}
+
+.note-container{
+    padding: 115px 0 180px;   
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    /* background-color: beige; */
+}
+
+.cards{
+    display: flex;
+    gap: 24px;
+    margin-top: 45px;
+    
+}
+
+.cards .card{
+    width: 322px;
+    height: 300px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 70px 24px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
+    
+}
+
+.cards img{
+    background-color: #F95555;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.card h3{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.card p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* Brain Section Start  */
+
+#brain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brain-img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+.brain-container{
+    width: 85%;
+    max-width: 1360px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.brain-info{
+    max-width: 520px;
+}
+
+
+.small-text{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.brain-info h2{
+    margin-bottom: 16px 0;
+}
+
+
+.brain-info p{    
+    margin-bottom: 400px;
+}
+
+
+
+
+
+
+
+
+
 
 
 

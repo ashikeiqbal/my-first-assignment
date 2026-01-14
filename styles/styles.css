@@ -1,0 +1,67 @@
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    
+
+}
+
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 85%; */
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: rgb(216, 199, 174);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

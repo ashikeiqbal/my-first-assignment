@@ -260,12 +260,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: aquamarine; */
 }
 
 .brain-img{
+    /* max-width: 600px; */
     /* width: 100%; */
-    height: auto;
-    display: block;
+    /* height: 600px; */
+    width: 50%;
+    /* align-items: left; */
+    padding: 50px 0;
+    flex: 1;
+    display: flex; 
+    /* justify-content: center; */
+    
+    
 }
 
 
@@ -274,7 +283,7 @@ body{
     width: 85%;
     max-width: 1360px;
     height: auto;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,7 +292,11 @@ body{
 }
 
 .brain-info{
-    max-width: 520px;
+    /* width: 400px; */
+    flex: 2;
+    /* background-color: aqua; */
+    /* margin-left: -100px; */
+    
 }
 
 
@@ -311,7 +324,7 @@ body{
     line-height: 20px;
     color: #627382;
     margin-bottom: 32px;
-    margin-top: 16;
+    margin-top: 16px;
 }
 
 .list-info ul{
@@ -323,6 +336,7 @@ body{
 .list-info ul li{
     align-items: center;
     display: flex;
+    font-size: 16px;
     margin-bottom: 12px;
 
 }
@@ -331,9 +345,10 @@ body{
 
 .list-info ul li img{
     margin-right: 15px;
+    width: 24px;
+    height: 24px;
    
 }
-
 
 
 
